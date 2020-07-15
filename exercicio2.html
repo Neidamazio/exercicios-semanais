@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+
+<script>
+/*
+
+Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+function pares(x, y) {
+// código aqui
+}
+pares(32, 321);
+
+Planejar:
+1º - criar a função
+2º - dentro da função devera ter uma repetição que verifique todos os numeros dentro do intervalo e calcule se e par
+3º - exibir todos os numeros pares.
+
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+*/
+
+
+var val1 = parseInt (prompt ("informe o primeiro numero do intervalo: "));
+var val2 = parseInt (prompt ("informe o segundo numero do intervalo: "));
+
+retornaNumerosPares(val1,val2);  
+
+
+ function retornaNumerosPares (num1, num2) {
+     for (i=num1; i<=num2; i++){
+         if (i % 2 == 0) {
+         document.write (i + "<br>")
+     }
+     }
+     
+    } 
+
+  
+</script>
+    
+</body>
+</html>

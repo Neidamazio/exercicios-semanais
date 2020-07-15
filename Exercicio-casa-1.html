@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1</title>
+</head>
+<body>
+    <script>
+        // Exercicio 1 - Calcule a media de diversas notas digitadas pelo usuario
+        /*
+        Sistema ira permitir o ususario digitar quantas notas ele desejar
+        ao fim irformara a quantidade de notas digitadas e a media das notas
+        para saber a media, o sistema precisa saber a soma das notas e quantidade de notas digitadas.
+        3 variaves, uma para receber a nota digitada, outra para soma das notas, outra para a quantidade de notas digitadas
+        
+        */
+        /*
+        var nota = parseInt (prompt("Digite a nota ou -1 para parar: "));
+        var qtNotas = 0
+        var somaNotas = 0
+
+        while (nota != -1) {
+          qtNotas++;
+          somaNotas = somaNotas + nota;
+          nota = parseInt (prompt("Digite a nota ou -1 para parar: "));
+        }
+        document.write("Você digitou " + qtNotas + " notas" + "<br>");
+        document.write("A media das notas foi: " + somaNotas/qtNotas);
+        */
+
+       //------------------------------------------------------------------------------------//
+
+       //Exercicio 2 - Faça um programa que entre com 5 numeros e imprima o quadrado de cada numero
+       //O usuario devera digitar 5 numeros, o sistema devera devolver o quadrado dos cinco numeros
+        /*
+        for (i = 1; i <= 5; i++) {
+            num = parseInt (prompt("Digite o " + i + "º numero: "));
+            document.write ("O quadrado de " + num + " e " + num * num + "<br>");
+        }
+        */
+
+        //------------------------------------------------------------------------------------//
+
+        //Exercicio 3 - Peça ao usuario para digitar 5 numeros em um caixa de texto.
+        //Verifique qual e o maior e exiba-o.
+
+        //------------------------------------------------------------------------------------//
+
+        //Exercicio 4 - Peça ao usuario para digitar varias idades. Exiba quantas pessoas são maiores de idade
+        //e quantas são menores.
+        /*
+        var idade = parseInt (prompt("Digite a idade ou -1 para parar: "));
+        var maior = 0;
+        var menor = 0;
+
+        while (idade != -1) {
+            if (idade >=18){
+                maior++
+            }else{
+                menor++
+            }         
+
+        idade = parseInt(prompt("Digite a idade ou -1 para parar: "));    
+        }
+
+        document.write(maior + " pessoas maior de idade" + "<br>");
+        document.write(menor + " pessoas menor de idade" + "<br>");
+        */
+
+        //---------------------------------------------------------------------------------------//
+
+        //Exercicio 5 - Crie um programa que entre com os dados de altura e sexo de 5 pessoas.
+        //1º- Criar um array pessoa - ok
+        
+        //2º- Criar um objeto caracteristicas da pessoa [nome, altura, sexo]. - ok
+
+        //Imprima na tela quantas pessoas são do sexo masculino e quantas são do sexo feminino.
+        //
+
+        //Mostre tambem qual e a maior altura e se essa altura e de um homem ou uma mulher.
+
+        var listaPessoas = [
+            pessoa {
+                nome: "João",
+                altura: '1,75',
+                sexo: "M"
+            },
+            {
+                nome: "Maria",
+                altura: '1,60',
+                sexo: "F" 
+            },
+            {
+                nome: "Fulano",
+                altura: '1,83',
+                sexo: "M" 
+            },
+            {
+                nome: "Ciclano",
+                altura: '1,78',
+                sexo: "M" 
+            },
+            {
+                nome: "Beltrana",
+                altura: '1,65',
+                sexo: "F" 
+            }}
+        ]
+        // Quantas são do sexo "M" e quantas do sexo "F"
+        var masc = 0;
+        var fem = 0;
+
+        for(i=0;i<listaPessoas.length;i++){
+            if (listaPessoas[i]pessoa.sexo = "M"){ 
+            masc++
+                
+            }else{
+                fem++}
+        }
+        
+        console.log(masc, fem)
+        console.log(listaPessoas, "<br>");
+        console.log(listaPessoas.pessoa)
+
+
+    </script>
+</body>
+</html>
